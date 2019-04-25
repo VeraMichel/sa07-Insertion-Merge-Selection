@@ -1,0 +1,18 @@
+#Dieser Algorithmus zeigt den Selection Sort.
+#Janine Küng - Beispielcode
+# Quelle: http://interactivepython.org/courselib/static/pythonds/SortSearch/TheSelectionSort.html?highlight=selection%20sort (angepasst)
+
+def selectionSort(liste):
+   for durchgang in range(len(liste)-1,0,-1):
+       positionMax=0
+       for position in range(1,durchgang+1):
+           if liste[position]>liste[positionMax]:
+               positionMax = position
+
+       temp = liste[durchgang]
+       liste[durchgang] = liste[positionMax]
+       liste[positionMax] = temp
+
+liste = [26,54,93,17,77,31,44,55,20]
+selectionSort(liste)
+print(liste)
