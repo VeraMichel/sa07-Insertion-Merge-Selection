@@ -1,5 +1,5 @@
 # sa07 Insertion Merge Selection
-In diesem GitHub-Projekt findet sich die Semesterarbeit von Vera Michel und Janine Küng von der Hochschule Luzern HSLU.
+In diesem GitHub-Projekt findet sich die Semesterarbeit von Vera Michel und Janine Küng von der Hochschule Luzern HSLU zum Thema Insertion, Merge und Selection. 
 
 ## Inhalt
 Insertion Sort: Hier findet sich ein abgeändertes Code-Beispiel zum Thema Insertion Sort. Erklärungen zum Code-Beispiel finden sich in der gesammelten Arbeit. Das originale Codebeispiel findet sich hier: [Insertion Sort](http://interactivepython.org/courselib/static/pythonds/SortSearch/TheInsertionSort.html)
